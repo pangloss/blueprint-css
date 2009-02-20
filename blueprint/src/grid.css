@@ -66,6 +66,32 @@ div.span-21, div.span-22, div.span-23, div.span-24 {
 .span-23 { width: 910px; }
 .span-24 { width: 950px; margin: 0; }
 
+/* These classes set exact width without any margin, padding or border changes */
+.width-1 { width: 40px; }
+.width-2 { width: 80px; }
+.width-3 { width: 120px; }
+.width-4 { width: 160px; }
+.width-5 { width: 200px; }
+.width-6 { width: 240px; }
+.width-7 { width: 280px; }
+.width-8 { width: 320px; }
+.width-9 { width: 360px; }
+.width-10 { width: 400px; }
+.width-11 { width: 440px; }
+.width-12 { width: 480px; }
+.width-13 { width: 520px; }
+.width-14 { width: 560px; }
+.width-15 { width: 600px; }
+.width-16 { width: 640px; }
+.width-17 { width: 680px; }
+.width-18 { width: 720px; }
+.width-19 { width: 760px; }
+.width-20 { width: 800px; }
+.width-21 { width: 840px; }
+.width-22 { width: 880px; }
+.width-23 { width: 920px; }
+.width-24 { width: 960px; }
+
 /* Add these to a column to append empty cols. */
 .append-1  { padding-right: 40px; }  
 .append-2  { padding-right: 80px; } 
