@@ -33,6 +33,11 @@
 <% end %>
 .span-<%= column_count %>, div.span-<%= column_count %> { width:<%= page_width %>px; margin:0; }
 
+/* These classes set exact width without any margin, padding or border changes */
+<% (1..column_count).each do |column| %>
+  .width-<%= column %> {width: <%= (column_width * column).to_i %>px;}
+<% end %>
+
 /* Use these classes to set the width of an input. */
 input.span-1, textarea.span-1, select.span-1 {width: <%= column_width %>px!important;}
 <% (2..column_count-1).each do |column| %>
